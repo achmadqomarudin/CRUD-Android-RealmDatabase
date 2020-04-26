@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/afdelingLinear"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/textAfdeling"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:text="AFDELING"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <TextView
+            android:id="@+id/textAfdelingg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textAfdeling"
+            android:text=":"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <TextView
+            android:id="@+id/textViewAfdeling"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="19dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textAfdelingg"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/blokLinear"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/textBlok"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:text="BLOK"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <TextView
+            android:id="@+id/textBlokk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textBlok"
+            android:text=":"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <TextView
+            android:id="@+id/textViewBlok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/textBlokk"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/groupSampleLinear"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/textGroupSample"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:text="Group Sample Ke"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <TextView
+            android:id="@+id/textGroupSamplee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textGroupSample"
+            android:text=":"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <TextView
+            android:id="@+id/textViewGroupSample"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/textGroupSamplee"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonHapus"
+            android:background="@drawable/bg_red"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/buttonUbah"
+            android:text="HAPUS"
+            android:textSize="12sp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <Button
+            android:id="@+id/buttonUbah"
+            android:background="@drawable/bg_green"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:text="UBAH"
+            android:textSize="12sp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/black" />
+</LinearLayout>
